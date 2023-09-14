@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listenersutility.IAnnotationRetryTransformerListener"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/Rahul/Desktop/Edubridge/Selenium/Selenium codes/NaukriCom_FinalDataDrivenProject(failed)">
+    <classes>
+      <class name="testclasses.HomeTest">
+        <methods>
+          <include name="sampleFailedTestCase"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testclasses.HomeTest -->
+      <class name="testclasses.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="sampleFailedTestCase2"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testclasses.LoginTest -->
+    </classes>
+  </test> <!-- C:/Users/Rahul/Desktop/Edubridge/Selenium/Selenium codes/NaukriCom_FinalDataDrivenProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
